@@ -1,0 +1,39 @@
+.UserPending .card1{
+    padding: 10PX;
+    margin-top: 1rem;
+    width: 50rem;
+    height: auto;
+    margin-left: 3rem;
+    background-color: rgb(238, 237, 237);
+    border-radius: 5px;
+    text-align: left;
+
+
+}
+.UserPending .flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+.UserPending.card1:hover{
+    transition: 1s;
+    box-shadow:3px 3px  black;
+}
+.UserPending #complaint{
+    margin-top: .5rem;
+    width: 20rem;
+    height: 13rem;
+}
+
+.UserPending button:hover{
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+    background-color: rgb(90, 136, 90);
+    color: white;
+    box-shadow: 3px 0 3px black;
+}
+
+.UserPending #Pending{
+    font-size: 1.5rem;
+ }

@@ -1,0 +1,45 @@
+.UserCompleted .card1{
+    padding: 10PX;
+  
+    width: 50rem;
+    height: auto;
+    margin-left: 3rem;
+    background-color: rgb(238, 237, 237);
+    border-radius: 5px;
+    text-align: left;
+
+
+}
+.UserCompleted .flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    
+}
+.UserCompleted .card1:hover{
+    transition: 1s;
+    box-shadow:3px 3px  black;
+}
+.UserCompleted #complaint{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 13rem;
+}
+
+.UserCompleted button:hover{
+    cursor: pointer;
+    border: none;
+    transition: .5s;
+    background-color: rgb(90, 136, 90);
+    color: white;
+    box-shadow: 3px 0 3px black;
+}
+
+.UserCompleted #Pending{
+    font-size: 1.5rem;
+ }
+
+ .UserCompleted pre{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+ }

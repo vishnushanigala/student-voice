@@ -1,0 +1,14 @@
+.footer2{
+    height:100px;
+    background-color: #7e1010;
+    color: #ffffff;
+    text-align:center;
+
+}
+.footer2 i{
+    font-size:30px;
+    display:inline-flex;
+    margin:20px 20px 0px 20px;
+    justify-content: center;
+    color: white;
+}

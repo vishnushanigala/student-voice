@@ -1,0 +1,48 @@
+.head{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.head {
+    height:140px;
+    background-color: #29398d;
+    width: 100%;
+    text-align: center;
+   
+}
+
+
+/* .head .nav-bar{
+   list-style: none;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+} */
+
+
+
+.head #text:hover{
+   transition: 2px 2s ease-in-out 2s;
+   color: palegoldenrod;
+}
+
+
+.head .box {
+    display: flex;
+    justify-content:space-around;
+
+    
+}
+
+
+
+.head #text{
+    
+    color: white;
+    text-decoration:none;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-family: Helvetica, sans-serif;
+}

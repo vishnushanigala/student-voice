@@ -1,0 +1,134 @@
+.head2 .home{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+.head2{
+    margin-bottom: 10rem;
+    height:90px;
+    background-color: #7e1010;
+    width: 100%;
+    text-align: center;
+}
+
+
+.head2 .nav-bar ul{
+   list-style: none;
+   display:flex;
+   justify-content: center;
+   text-align: center;
+}
+
+
+
+.head2 .box1:hover{
+   height: 2rem;
+   transition: 1s ease-in-out;
+    border-bottom: 3px solid rgb(193, 156, 156);
+}
+
+
+.head2 .box {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(16, 4, 4);
+    text-decoration:none;
+    text-transform: capitalize;
+}
+
+
+.head2 .box1{
+    margin-top: .5rem;
+    border: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    
+}
+.head2 #but1{
+    margin-right: 2rem;
+    background-color: White;
+      color: rgb(3, 13, 3);
+      border: none;
+      font-size: 1.5rem;
+      text-transform: capitalize;
+      font-family:Cambria;
+
+}
+
+.head2 #but1:hover{
+    background-color:red;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+.head2 .Name{
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+    font-size: 2rem;
+}
+.head2 #img1{
+    height: 2rem;
+   margin-left: 5px;
+}
+.head2 .top{
+    height:180px;
+    background-color:#7e1010;
+    width: 100%;
+    text-align: center;
+}
+
+.head2  .scroll{
+    display: flex;
+    
+}
+.head2 .scroll-bar{
+    height:60px;
+    width:150px;
+    color:white;
+    background-color:#7e1010;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top:10px;
+    margin-top:10px;
+}
+.head2 .scroll-bar span{
+    font-size:20px;
+    padding:10px;
+}
+.head2 .scroll-con{
+    width:100%;
+    background-color: #7e1010;
+    height: 60px;
+    margin-top:10px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.head2 .scroll-con pre{
+    font-size:15px;
+    padding: 15px;
+    color:white;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+.head2  #new-img{
+    height:30px;
+}
+
+
+.head2 .updates{
+    height:500x;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+.head2 #text{
+    color: black;
+    text-decoration: none;
+}

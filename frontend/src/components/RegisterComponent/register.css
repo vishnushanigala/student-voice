@@ -1,0 +1,81 @@
+.register{
+    display: flex;
+    gap: 12rem;
+   
+}
+.register .box{
+    background-color: white;
+    text-align: center;
+    width: 500px;
+    height: 520px;
+    border: solid black 2px;
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-top:3rem;
+    padding: 20px;
+   
+    
+}
+.register .con1{
+    text-align: left;
+    display: flex;
+   gap: 2rem;
+   column-gap: 2rem;
+  
+   
+}
+.register .con2{
+   font-size: 17px;
+   gap: 10px;
+ 
+}
+.register .con3{
+    font-size: 17px;
+    gap: 10px;
+    
+}
+.register input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea
+{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-bottom: solid #ccc 2px;
+
+}
+.register .con4{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.register input[type="radio"]{
+
+
+    margin-left: 40px;
+    padding-left: 50px;
+    text-align: left;
+
+}
+
+.register #register{
+    margin-top: 30px;
+    padding: 10px;
+    width:85%;
+    cursor: pointer;
+    background:#29398d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size:20px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.register #gif{
+    margin-top: 6rem;
+    width: 30rem;
+    height: 20rem;
+}

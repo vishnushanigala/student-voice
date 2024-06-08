@@ -1,0 +1,98 @@
+.contactus .i1{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+.contactus img{
+    width: 250px;
+    height: 250px;
+    border-radius:50%;
+}
+.contactus .i2{
+     display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.contactus .i3{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.contactus .i4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+.contactus .i5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0;
+}
+.contactus h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+
+.contactus .updates{
+    height:500x;
+    background-color:#ffffff;
+    text-align: center;
+}
+
+
+
+.contactus .support{
+    text-align: center;
+    align-items: center;
+    padding-top:20px;
+    display: flex;
+    justify-content: center;
+    font-size:30px;
+}
+.contactus #name{
+    margin: 10px;
+    width:360px;
+    height:45px;
+    font-size:20px;
+}
+.contactus #email{
+    margin:10px;
+    width:360px;
+    height: 45px;
+    font-size:20px;
+}
+.contactus #ph-no{
+    margin:10px;
+    width:360px;
+    height: 45px;
+    font-size:20px;
+}
+.contactus #query{
+    margin:10px;
+    width:360px;
+    height:200px;
+    font-size:20px;
+    text-align: start;
+}
+.contactus span{
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+.contactus .support-img{
+    width:400px;
+    height:400px;
+}
+
+.contactus #submit{
+    background-color:#29398d;
+    color:#ffffff;
+    font-size: medium;
+}
